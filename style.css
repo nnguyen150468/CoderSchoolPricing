@@ -1,0 +1,82 @@
+.navbar-nav > .nav-item {
+    margin-left: 15px;
+}
+
+section {
+    display: flex;
+    padding-top: 10%;
+    align-items: center;
+    flex-direction: column;
+  }
+
+.curriculum {
+    background-color: #e9ebee;
+    padding-top: 3%;
+}
+
+.row {
+    width: 85%;
+    display: flex;
+    justify-content: center;
+}
+
+:root {
+    --red: #cd4541;
+  }
+  
+  .red {
+    color: var(--red);
+  }
+
+:root {
+    --gray: #e9ebee;
+  }
+  
+  .gray {
+    color: var(--gray);
+  }
+
+  .btn-primary {
+    border: 0px;
+    color: white;
+    background-color: var(--red);
+  }
+
+  .card {
+    margin-bottom: 100px;
+    box-shadow: 0 10px 40px rgba(59, 43, 91, 0.3);
+  }
+  
+  #third {
+    background-image: url(banner.jpg);
+    height: 800px;
+    align-items: center;
+  }
+
+  .history-container {
+    margin-top: 7em;
+  }
+
+  #fourth, .form-row, .form-group, form  {
+    background-color: #e9ebee;
+  }
+
+
+  #fourth > .container > p:nth-last-of-type(1) {
+    font-size: 25px;
+    margin-bottom: 100px;
+  }
+
+  #fourth {
+      padding-bottom: 6em;
+  }
+
+  .typewrite {
+      font-size: 2.5em;
+      font-weight: bold;
+  }
+
+  .wrap {
+      display: flex;
+      flex-wrap: wrap;
+  }
