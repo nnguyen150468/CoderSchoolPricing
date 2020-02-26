@@ -1,0 +1,13 @@
+:root {
+  --red: #cd4541;
+}
+
+.red {
+  color: var(--red);
+}
+
+.btn-primary {
+    border: 0px;
+    color: white;
+    background-color: var(--red);
+}  
